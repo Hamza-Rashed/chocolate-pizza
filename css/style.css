@@ -65,7 +65,7 @@ section:nth-child(1) {
 }
 
 .hr-line {
-    background-image: url('img/hr-img.png');
+    background-image: url('../img/hr-img.png');
     background-repeat: repeat;
     padding: 5px;
     margin-top: 32px;
@@ -120,7 +120,7 @@ main p {
 
 .todo {
     clear: both;
-    background-image: url('img/list-bg.png');
+    background-image: url('../img/list-bg.png');
     background-size: 120px;
     padding-bottom: 350px;
     padding-top: 52px;
@@ -131,7 +131,7 @@ main p {
 }
 
 .hr-line-footer {
-    background-image: url('img/hr-img.png');
+    background-image: url('../img/hr-img.png');
     background-repeat: repeat;
     padding: 5px;
     margin-top: 100px;
