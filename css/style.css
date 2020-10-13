@@ -1,0 +1,230 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Yellowtail&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Anton&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Anton&family=Charm&display=swap";
+
+* {
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+body {
+    margin: 150px;
+}
+
+header {
+    min-height: 150px;
+}
+
+section .logo {
+    float: left;
+    margin-right: 10px;
+    width: 75px;
+}
+
+header {
+    list-style: none;
+}
+
+header h2 {
+    margin: 0;
+    margin-top: -20px;
+    font-size: 70px;
+    font-family: 'Yellowtail', cursive
+}
+
+header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: -10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: gray;
+}
+
+header section {
+    display: inline-block;
+}
+
+.icons {
+    float: right;
+    margin: 25px;
+}
+
+.icons img {
+    width: 40px;
+    margin: 0;
+}
+
+.icons .wifi {
+    margin-left: 15px;
+}
+
+section:nth-child(1) {
+    width: 500px;
+    margin-top: 0px;
+}
+
+.hr-line {
+    background-image: url('/img/hr-img.png');
+    background-repeat: repeat;
+    padding: 5px;
+    margin-top: 32px;
+    height: 17px;
+}
+
+section h1:first-child {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+}
+
+section.section2 {
+    width: 100%;
+    margin-top: 60px;
+}
+
+section.section2 h2 {
+    color: gray;
+    font-family: inherit;
+    margin: 0px;
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.p {
+    font-size: 20px;
+    color: gray;
+    line-height: 35px;
+    margin: 30px;
+}
+
+.print-icon {
+    float: right;
+    margin: 0px;
+    font-size: 15px;
+    color: gray;
+}
+
+.main-image {
+    background-size: cover;
+    width: 100%;
+    margin-top: 20px;
+}
+
+main p {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.todo {
+    clear: both;
+    background-image: url('/img/list-bg.png');
+    background-size: 120px;
+    padding-bottom: 350px;
+    padding-top: 52px;
+    line-height: 40px;
+    color: rgb(73, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.hr-line-footer {
+    background-image: url('/img/hr-img.png');
+    background-repeat: repeat;
+    padding: 5px;
+    margin-top: 100px;
+    height: 17px;
+}
+
+.hr1 {
+    margin-top: 6px;
+    width: 99%;
+    color: rgb(190, 181, 181);
+}
+
+.hr2 {
+    margin-top: -6px;
+    width: 98%;
+    color: rgb(201, 194, 194);
+}
+
+.first-list {
+    float: left;
+    font-size: x-large;
+    margin-left: 300px;
+    padding-bottom: 100px;
+    z-index: 10px;
+}
+
+.second-list {
+    float: right;
+    font-size: x-large;
+    margin-right: 200px;
+    z-index: 10px;
+}
+
+input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.logo-footer {
+    float: left;
+    margin: 15px;
+}
+
+footer section {
+    height: 100px;
+}
+
+footer section h6 {
+    margin: 0px;
+    font-size: 25px;
+    padding: 18px;
+    width: 400px;
+}
+
+footer button {
+    float: right;
+    font-size: 18px;
+    background-color: peru;
+    padding: 20px 35px 20px 35px;
+    margin-top: -45px;
+    border: 0px;
+    color: white;
+    font-family: 'Lobster', cursive' ;
+}
+
+.footer-text {
+    margin-top: 65px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: gray;
+    margin-bottom: 75px;
+}
+
+.line-f {
+    text-align: center;
+}
+
+.line-f img {
+    margin-bottom: -29px;
+}
+
+.hr3 {
+    width: 48.5%;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+.hr4 {
+    width: 48.5%;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+
